@@ -1,0 +1,40 @@
+//A program to compute the real roots of a quadratic equation.
+
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+    int a,b,c;
+    float j, k, x, u, v, x1, x2;
+    printf("Enter three number : ");
+    scanf("%d %d %d",&a,&b,&c);
+    
+    j = (b*b) - (4*a*c);
+    k = sqrt(j);
+    u = -b + k ;
+    v = -b - k ;
+    
+    
+    x1 = u/(2*a) ;
+    x2 = v/(2*a) ;
+    x = -c/b ;
+    
+    if(a==0 &&  b==0)
+       printf(" No solution\n ");
+    else if(a==0)
+       printf("There is only one root : %.2f\n",x);
+    else if(j<0)
+       printf("There are no real roots\n ");
+     else if(j==0)
+     {
+     printf("The roots are same\n");
+     printf(" The roots are : %f",((-b)/(2*a)));
+     }
+     else
+     {
+     printf("There are two real roots\n");
+     printf("The real roots are %.2f & %.2f\n",x1,x2);
+     }
+    return 0;
+}
