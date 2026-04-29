@@ -1,0 +1,27 @@
+//A program to display the sum of all integers that are divisible by 6 but not divisible by 4
+and lie between 0 and 100. The program should also countand display the number of such values.
+
+#include<stdio.h>
+
+int main()
+{
+    int n;
+    int sum = 0;
+    int count = 0;
+    printf("Enter the integers :\n");
+    
+    for(int i=0;i<100;i++)
+    {
+    	scanf("%d",&n);
+    	if(n%6==0 && n%4!=0)
+    	{
+    		sum=sum+n;
+    		count++;
+    	}
+    }
+    	    		printf("The sum of the integers : %d\n",sum);
+    
+    printf("Number of values that obeys the condition : %d\n",count);
+    
+    return 0;
+}
