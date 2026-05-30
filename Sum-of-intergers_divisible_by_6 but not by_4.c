@@ -1,4 +1,4 @@
-//A program to display the sum of all integers that are divisible by 6 but not divisible by 4
+/A program to display the sum of all integers that are divisible by 6 but not divisible by 4
 and lie between 0 and 100. The program should also countand display the number of such values.
 
 #include<stdio.h>
