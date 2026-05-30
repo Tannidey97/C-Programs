@@ -1,5 +1,5 @@
-//Same question as "Using if statement"
-//this time using else if statement 
+/Same question as "Using if statement"
+/this time using else if statement 
 
 #include<stdio.h>
 
