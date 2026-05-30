@@ -1,4 +1,4 @@
-//Sum of even numbers.
+/Sum of even numbers.
 
 
 #include<stdio.h>
