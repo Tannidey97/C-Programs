@@ -1,4 +1,4 @@
-//Week days name printing according to weekdays number.
+/Week days name printing according to weekdays number.
 
 #include<stdio.h>
 int main()
