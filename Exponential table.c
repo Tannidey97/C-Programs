@@ -1,6 +1,6 @@
 Write a program to print a table of values of the function 
 Y = exp(-X).
-  X varying from 0.0 to 9.0  in steps of 0.10.
+  X varying from 0.1 to 9.0  in steps of 0.10.
   
 
 #include<stdio.h>
